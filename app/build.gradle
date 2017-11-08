@@ -35,8 +35,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'org.greenrobot:greendao:3.2.0'
     compile 'com.github.bumptech.glide:glide:3.7.0'
-    compile 'io.reactivex:rxjava:1.1.6'
-    compile 'io.reactivex:rxandroid:1.2.1'
+
 /*    // 数据库加密时添加
     compile 'net.zetetic:android-database-sqlcipher:3.5.1'
 

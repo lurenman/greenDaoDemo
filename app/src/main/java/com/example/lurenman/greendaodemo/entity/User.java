@@ -13,15 +13,15 @@ import org.greenrobot.greendao.annotation.Generated;
 @Entity
 public class User {
     @Id(autoincrement = true)
-    private long id;
+    private Long id;
     @NotNull//表示注解不能为null
     @Unique // 唯一，默认索引
     private String name;
     private String image;
     private String occupation;//职业
     private String reward;//悬赏
-    @Generated(hash = 1116637426)
-    public User(long id, @NotNull String name, String image, String occupation,
+    @Generated(hash = 1485442489)
+    public User(Long id, @NotNull String name, String image, String occupation,
             String reward) {
         this.id = id;
         this.name = name;
@@ -32,10 +32,10 @@ public class User {
     @Generated(hash = 586692638)
     public User() {
     }
-    public long getId() {
+    public Long getId() {
         return this.id;
     }
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
     public String getName() {
@@ -62,5 +62,6 @@ public class User {
     public void setReward(String reward) {
         this.reward = reward;
     }
+ 
 
 }

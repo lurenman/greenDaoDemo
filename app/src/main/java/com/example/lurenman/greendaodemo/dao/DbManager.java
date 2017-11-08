@@ -23,7 +23,7 @@ public class DbManager {
     }
 
     public void initDao() {
-        DaoMaster.DevOpenHelper helper = new DaoMaster.DevOpenHelper(MyApplication.AppInstance, "users-db");
+        DaoMaster.DevOpenHelper helper = new DaoMaster.DevOpenHelper(MyApplication.AppInstance, "users.db");
         Database db = helper.getWritableDb();
         daoSession = new DaoMaster(db).newSession();
     }
