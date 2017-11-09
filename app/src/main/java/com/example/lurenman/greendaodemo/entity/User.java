@@ -9,8 +9,9 @@ import org.greenrobot.greendao.annotation.Generated;
 /**
  * @author: baiyang.
  * Created on 2017/11/8.
+ * nameInDb = "user"这个不写就默认大写实体类名字
  */
-@Entity
+@Entity(nameInDb = "user")
 public class User {
     @Id(autoincrement = true)
     private Long id;
